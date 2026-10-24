@@ -17,7 +17,7 @@
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.2",
     "@prisma/adapter-pg": "^7.8.0",
-    "@prisma/client": "^7.8.0",
+    "@prisma/client": "^7.10.1",
     "@vercel/analytics": "^2.0.1",
     "bullmq": "^5.76.4",
     "ioredis": "^5.10.1",
@@ -45,5 +45,10 @@
     "tsx": "^4.22.1",
     "typescript": "^5",
     "vitest": "^4.1.5"
+  },
+  "allowScripts": {
+    "@prisma/engines@7.10.1": true,
+    "prisma@7.10.1": true,
+    "esbuild@0.28.2": true
   }
 }
